@@ -469,8 +469,8 @@ await sock.sendMessage(
 // send an audio file
 await sock.sendMessage(
     id, 
-    { audio: { url: "./Media/audio.mp3" }, mimetype: 'audio/mp4' }
-    { url: "Media/audio.mp3" }, // can send mp3, mp4, & ogg
+    { audio: { url: "./Media/audio.mp3" }, mimetype: 'audio/mp4' },
+    { url: "Media/audio.mp3" } // can send mp3, mp4, & ogg
 )
 
 // send a buttons message with image header!
